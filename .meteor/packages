@@ -22,5 +22,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 bgrayburn:processingjs
 less
 jeeeyul:moment-with-langs
+markdown
 #smag0:dreamcatcher
 #aslagle:reactive-table

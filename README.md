@@ -10,3 +10,7 @@ other explanations here : http://smag0.blogspot.fr/2015/08/dreamcatcher-lattrape
 other test with 3D : http://smag-smag0.rhcloud.com/DreamCatcher1/
 
 with threejs ?? 
+a voir aussi https://github.com/aslagle/reactive-table
+http://lhorie.github.io/mithril-blog/mithril-and-meteor.html
+ou p5js : https://github.com/bgrayburn/meteor-p5-js
+

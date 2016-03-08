@@ -4,19 +4,22 @@
  
 <body>
   <div class="container">
-    <header>
-      <h1>Dreamcatcher</h1>
-    </header>
  {{>processingSketch}}
+ </div>
+ <div>
+ {{> layout}}
+ </div>
+ <main>
+{{> home}}
+</main>
     <ul>
       {{#each tasks}}
         {{> task}}
       {{/each}}
     </ul>
-  </div>
-  <div>
-  <a href="https://github.com/scenaristeur/dreamcatcher" target="_blank">source</a> ... <a href=http://smag0.blogspot.fr/2015/08/dreamcatcher-lattrape-reves.html" target="_blank">Help</a> 
-  </div>
+ 
+  <a href="https://github.com/scenaristeur/dreamcatcher" target="_blank">source</a> ... <a href="http://smag0.blogspot.fr/2015/08/dreamcatcher-lattrape-reves.html" target="_blank">Help</a> 
+
 </body>
  
 <template name="task">
