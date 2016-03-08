@@ -1,0 +1,25 @@
+<head>
+  <title>DreamCatcher</title>
+</head>
+ 
+<body>
+  <div class="container">
+    <header>
+      <h1>Dreamcatcher</h1>
+    </header>
+ {{>processingSketch}}
+    <ul>
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+ 
+<template name="task">
+  <li>{{text}}</li>
+</template>
+
+<template name="processingSketch">
+  <canvas id="mysketch" data-processing-sources="mysketch.pde"></canvas>
+</template>
